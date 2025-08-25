@@ -1,6 +1,6 @@
 import { Github, Code, Mail, Linkedin, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import profileImage from "@assets/My_Image_1756154326303.jpg";
+import profileImage from "../assets/profile.jpg";
 
 export default function HeroSection() {
   const handleContactClick = () => {
@@ -27,7 +27,7 @@ export default function HeroSection() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="animate-slide-up">
+          <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary dark:text-white leading-tight mb-6">
               Hi, I'm <span className="text-gradient">Amit Yadav</span>
             </h1>
@@ -95,7 +95,7 @@ export default function HeroSection() {
             </div>
           </div>
           
-          <div className="animate-fade-in relative">
+          <div className="relative">
             <div className="relative">
               <img 
                 src={profileImage} 

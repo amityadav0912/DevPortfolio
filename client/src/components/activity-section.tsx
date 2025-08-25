@@ -35,25 +35,38 @@ export default function ActivitySection() {
               {/* GitHub Contribution Graph */}
               <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
                 <img 
-                  src="https://ghchart.rshah.org/409ba5/amityadav0912" 
-                  alt="GitHub Contribution Chart for amityadav0912"
+                  src="https://github-readme-streak-stats.herokuapp.com/?user=amityadav0912&theme=default&hide_border=true" 
+                  alt="GitHub Streak Stats for amityadav0912"
+                  className="w-full h-auto rounded mb-3"
+                  data-testid="github-streak"
+                />
+                <img 
+                  src="https://github-readme-stats.vercel.app/api?username=amityadav0912&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true" 
+                  alt="GitHub Stats for amityadav0912"
                   className="w-full h-auto rounded"
-                  data-testid="github-chart"
+                  data-testid="github-stats"
                 />
               </div>
               
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
                   <div className="text-2xl font-bold text-primary mb-1" data-testid="github-repos">
-                    15+
+                    <img 
+                      src="https://github-readme-stats.vercel.app/api/top-langs/?username=amityadav0912&layout=compact&theme=default&hide_border=true" 
+                      alt="Top Languages"
+                      className="w-full h-auto rounded"
+                    />
                   </div>
-                  <div className="text-sm text-muted dark:text-gray-400">Repositories</div>
                 </div>
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-                  <div className="text-2xl font-bold text-primary mb-1" data-testid="github-commits">
-                    200+
+                  <div className="text-center">
+                    <div className="text-lg font-bold text-primary mb-2">GitHub Activity</div>
+                    <div className="text-sm text-muted dark:text-gray-400">
+                      <div className="mb-1">📊 Real-time stats</div>
+                      <div className="mb-1">🔥 Active contributor</div>
+                      <div>⚡ Open source projects</div>
+                    </div>
                   </div>
-                  <div className="text-sm text-muted dark:text-gray-400">Commits</div>
                 </div>
               </div>
               
@@ -90,36 +103,13 @@ export default function ActivitySection() {
               </div>
               
               {/* LeetCode Stats */}
-              <div className="space-y-4 mb-6">
-                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="text-sm font-medium text-secondary dark:text-white">Easy Problems</span>
-                    <span className="text-sm text-muted dark:text-gray-400">150+</span>
-                  </div>
-                  <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
-                    <div className="bg-green-500 h-2 rounded-full" style={{ width: '75%' }} data-testid="progress-easy"></div>
-                  </div>
-                </div>
-                
-                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="text-sm font-medium text-secondary dark:text-white">Medium Problems</span>
-                    <span className="text-sm text-muted dark:text-gray-400">120+</span>
-                  </div>
-                  <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
-                    <div className="bg-yellow-500 h-2 rounded-full" style={{ width: '60%' }} data-testid="progress-medium"></div>
-                  </div>
-                </div>
-                
-                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="text-sm font-medium text-secondary dark:text-white">Hard Problems</span>
-                    <span className="text-sm text-muted dark:text-gray-400">30+</span>
-                  </div>
-                  <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
-                    <div className="bg-red-500 h-2 rounded-full" style={{ width: '30%' }} data-testid="progress-hard"></div>
-                  </div>
-                </div>
+              <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-6">
+                <img 
+                  src="https://leetcard.jacoblin.cool/amit09yadav12?theme=light&font=Nunito&ext=heatmap" 
+                  alt="LeetCode Stats for amit09yadav12"
+                  className="w-full h-auto rounded"
+                  data-testid="leetcode-card"
+                />
               </div>
               
               <div className="grid grid-cols-2 gap-4 text-center mb-6">
@@ -170,40 +160,35 @@ export default function ActivitySection() {
               </div>
             </div>
             
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2" data-testid="stat-daily-commits">
-                  25+
-                </div>
-                <div className="text-sm text-muted dark:text-gray-300">
-                  Daily Commits
-                </div>
-                <div className="text-xs text-muted dark:text-gray-400 mt-1">
-                  This Month
-                </div>
+                <img 
+                  src="https://github-readme-activity-graph.vercel.app/graph?username=amityadav0912&theme=react-dark&hide_border=true&area=true" 
+                  alt="GitHub Activity Graph"
+                  className="w-full h-auto rounded mb-4"
+                  data-testid="github-activity-graph"
+                />
+                <div className="text-sm text-muted dark:text-gray-300">GitHub Activity Graph</div>
               </div>
               
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2" data-testid="stat-problems-month">
-                  45+
-                </div>
-                <div className="text-sm text-muted dark:text-gray-300">
-                  Problems Solved
-                </div>
-                <div className="text-xs text-muted dark:text-gray-400 mt-1">
-                  This Month
-                </div>
-              </div>
-              
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2" data-testid="stat-contest-rank">
-                  Top 15%
-                </div>
-                <div className="text-sm text-muted dark:text-gray-300">
-                  Contest Ranking
-                </div>
-                <div className="text-xs text-muted dark:text-gray-400 mt-1">
-                  Average
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-white dark:bg-gray-700 rounded-lg p-4">
+                    <div className="text-2xl font-bold text-primary mb-1">300+</div>
+                    <div className="text-xs text-muted dark:text-gray-400">LeetCode Problems</div>
+                  </div>
+                  <div className="bg-white dark:bg-gray-700 rounded-lg p-4">
+                    <div className="text-2xl font-bold text-primary mb-1">50+</div>
+                    <div className="text-xs text-muted dark:text-gray-400">Contests Joined</div>
+                  </div>
+                  <div className="bg-white dark:bg-gray-700 rounded-lg p-4">
+                    <div className="text-2xl font-bold text-primary mb-1">5⭐</div>
+                    <div className="text-xs text-muted dark:text-gray-400">HackerRank Java</div>
+                  </div>
+                  <div className="bg-white dark:bg-gray-700 rounded-lg p-4">
+                    <div className="text-2xl font-bold text-primary mb-1">8.75</div>
+                    <div className="text-xs text-muted dark:text-gray-400">CGPA</div>
+                  </div>
                 </div>
               </div>
             </div>
