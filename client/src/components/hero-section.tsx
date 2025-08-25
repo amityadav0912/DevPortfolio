@@ -15,8 +15,11 @@ export default function HeroSection() {
   };
 
   const handleDownloadCV = () => {
-    // This would typically link to a PDF file
-    window.open('#', '_blank');
+    // Download the resume PDF
+    const link = document.createElement('a');
+    link.href = '/attached_assets/Amit_Yadav_Resume.pdf';
+    link.download = 'Amit_Yadav_Resume.pdf';
+    link.click();
   };
 
   return (
@@ -84,7 +87,7 @@ export default function HeroSection() {
                 <Mail className="h-6 w-6" />
               </a>
               <a 
-                href="https://linkedin.com/in/amit-yadav-dev" 
+                href="https://www.linkedin.com/in/amit09yadav12/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors duration-200 hover:scale-110 transform"

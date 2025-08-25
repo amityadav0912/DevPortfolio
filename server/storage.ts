@@ -34,7 +34,7 @@ export class MemStorage implements IStorage {
         social: {
           github: "https://github.com/amityadav0912",
           leetcode: "https://leetcode.com/u/amit09yadav12/",
-          linkedin: "https://linkedin.com/in/amit-yadav-dev",
+          linkedin: "https://www.linkedin.com/in/amit09yadav12/",
           email: "mailto:amit09yadav12@gmail.com"
         }
       },

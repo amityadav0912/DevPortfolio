@@ -92,7 +92,7 @@ export default function ContactSection() {
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
-      href: "https://linkedin.com/in/amit-yadav-dev",
+      href: "https://www.linkedin.com/in/amit09yadav12/",
       label: "LinkedIn"
     },
     {
