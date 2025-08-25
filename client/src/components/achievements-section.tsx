@@ -80,7 +80,7 @@ export default function AchievementsSection() {
           ))}
         </div>
         
-        {/* Additional Stats */}
+        {/* Additional Stats
         <Card className="mt-16 bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-gray-800 dark:to-gray-700 border-indigo-100 dark:border-gray-600">
           <CardContent className="p-8">
             <div className="grid md:grid-cols-3 gap-8 text-center">
@@ -99,7 +99,7 @@ export default function AchievementsSection() {
               ))}
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
       </div>
     </section>
   );

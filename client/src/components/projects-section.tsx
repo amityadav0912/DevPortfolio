@@ -141,16 +141,6 @@ export default function ProjectsSection() {
             </Card>
           ))}
         </div>
-        
-        {/* View More Projects Button */}
-        <div className="text-center mt-12">
-          <Button 
-            className="bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg"
-            data-testid="button-view-all-projects"
-          >
-            View All Projects <ExternalLink className="ml-2 h-4 w-4" />
-          </Button>
-        </div>
       </div>
     </section>
   );

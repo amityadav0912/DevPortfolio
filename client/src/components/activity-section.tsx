@@ -144,7 +144,7 @@ export default function ActivitySection() {
         </div>
         
         {/* Recent Activity Timeline */}
-        <Card className="mt-12 bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-gray-800 dark:to-gray-700 border-indigo-100 dark:border-gray-600">
+        {/* <Card className="mt-12 bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-gray-800 dark:to-gray-700 border-indigo-100 dark:border-gray-600">
           <CardContent className="p-8">
             <div className="flex items-center space-x-3 mb-6">
               <div className="bg-indigo-500 text-white p-3 rounded-lg">
@@ -193,7 +193,7 @@ export default function ActivitySection() {
               </div>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
       </div>
     </section>
   );

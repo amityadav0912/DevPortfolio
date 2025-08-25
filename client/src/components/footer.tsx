@@ -103,7 +103,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-700 dark:border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-300 dark:text-gray-400" data-testid="footer-copyright">
-            &copy; 2024 Amit Yadav. All rights reserved. Built with ❤️ and modern web technologies.
+            &copy; 2025 Amit Yadav. All rights reserved.
           </p>
         </div>
       </div>
