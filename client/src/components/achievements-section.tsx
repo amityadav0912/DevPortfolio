@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const achievements = [
   {
     icon: <Code className="h-5 w-5" />,
-    title: "200+ Problems",
+    title: "300+ Problems",
     subtitle: "Solved on LeetCode",
     description: "Active in 50+ Contests",
     gradient: "from-purple-50 to-indigo-50 dark:from-purple-900 dark:to-indigo-900",
@@ -41,7 +41,7 @@ const achievements = [
 ];
 
 const stats = [
-  { value: "200+", label: "Problems Solved", description: "Across multiple platforms" },
+  { value: "300+", label: "Problems Solved", description: "Across multiple platforms" },
   { value: "8.75", label: "CGPA", description: "B.Tech Information Technology" },
   { value: "50+", label: "Contests Participated", description: "Competitive Programming" }
 ];

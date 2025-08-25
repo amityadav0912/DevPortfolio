@@ -67,7 +67,7 @@ export default function HeroSection() {
                 <Github className="h-6 w-6" />
               </a>
               <a 
-                href="https://leetcode.com/amit09yadav12" 
+                href="https://leetcode.com/u/amit09yadav12/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors duration-200 hover:scale-110 transform"
@@ -83,7 +83,7 @@ export default function HeroSection() {
                 <Mail className="h-6 w-6" />
               </a>
               <a 
-                href="https://linkedin.com/in/amityadav" 
+                href="https://linkedin.com/in/amit-yadav-dev" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors duration-200 hover:scale-110 transform"
@@ -97,14 +97,14 @@ export default function HeroSection() {
           <div className="animate-fade-in relative">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                alt="Developer workspace with dual monitors displaying code" 
-                className="rounded-2xl shadow-2xl w-full h-auto object-cover dark:shadow-gray-800"
+                src="/attached_assets/My_Image_1756154326303.jpg" 
+                alt="Amit Yadav - Full Stack Developer" 
+                className="rounded-2xl shadow-2xl w-full h-auto object-cover dark:shadow-gray-800 max-w-md mx-auto"
                 data-testid="hero-image"
               />
               <div className="absolute -bottom-6 -right-6 bg-white dark:bg-gray-800 rounded-xl p-4 shadow-xl border dark:border-gray-700 animate-bounce-subtle">
                 <div className="text-sm font-semibold text-secondary dark:text-white" data-testid="text-problems-solved">
-                  200+ Problems Solved
+                  300+ Problems Solved
                 </div>
                 <div className="text-xs text-muted dark:text-gray-400">on LeetCode</div>
               </div>

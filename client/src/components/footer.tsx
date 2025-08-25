@@ -14,7 +14,7 @@ const socialLinks = [
     label: "GitHub"
   },
   {
-    href: "https://leetcode.com/amit09yadav12",
+    href: "https://leetcode.com/u/amit09yadav12/",
     icon: <Code className="h-5 w-5" />,
     label: "LeetCode"
   },

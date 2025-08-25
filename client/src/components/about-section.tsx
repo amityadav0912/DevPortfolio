@@ -25,7 +25,7 @@ export default function AboutSection() {
             </p>
             <p className="text-muted dark:text-gray-300 mb-8 leading-relaxed">
               My passion for problem-solving is evident through my active participation in coding 
-              competitions and my achievement of solving 200+ problems on various platforms. 
+              competitions and my achievement of solving 300+ problems on various platforms. 
               I believe in continuous learning and staying updated with the latest technologies.
             </p>
             

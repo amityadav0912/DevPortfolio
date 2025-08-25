@@ -10,8 +10,8 @@ const projects = [
     technologies: ["Next.JS", "MongoDB", "Express.JS", "Node.JS"],
     category: "Full Stack",
     date: "Jan 2023",
-    demoUrl: "#",
-    githubUrl: "#"
+    demoUrl: "https://dopamine-pi.vercel.app/",
+    githubUrl: "https://github.com/amityadav0912"
   },
   {
     title: "HappyPaws - Pet Adoption Platform", 
@@ -20,8 +20,8 @@ const projects = [
     technologies: ["React", "Node.js", "MongoDB", "PayPal API"],
     category: "MERN Stack",
     date: "May 2023",
-    demoUrl: "#",
-    githubUrl: "#"
+    demoUrl: "https://happypaws-iota.vercel.app/",
+    githubUrl: "https://github.com/amityadav0912"
   },
   {
     title: "Bankist - Complete Banking App",
@@ -30,8 +30,8 @@ const projects = [
     technologies: ["JavaScript", "HTML5", "CSS3", "DOM API"],
     category: "Vanilla JS",
     date: "Oct 2022",
-    demoUrl: "#",
-    githubUrl: "#"
+    demoUrl: "https://bankiest.vercel.app/",
+    githubUrl: "https://github.com/amityadav0912"
   }
 ];
 

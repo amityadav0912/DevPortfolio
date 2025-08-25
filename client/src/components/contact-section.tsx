@@ -87,12 +87,12 @@ export default function ContactSection() {
     },
     {
       icon: <Code className="h-5 w-5" />,
-      href: "https://leetcode.com/amit09yadav12",
+      href: "https://leetcode.com/u/amit09yadav12/",
       label: "LeetCode"
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
-      href: "https://linkedin.com/in/amityadav",
+      href: "https://linkedin.com/in/amit-yadav-dev",
       label: "LinkedIn"
     },
     {

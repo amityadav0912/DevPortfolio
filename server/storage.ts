@@ -33,8 +33,8 @@ export class MemStorage implements IStorage {
         bio: "Passionate about creating innovative web solutions with modern technologies. Currently working at Accenture, building scalable applications and solving complex problems.",
         social: {
           github: "https://github.com/amityadav0912",
-          leetcode: "https://leetcode.com/amit09yadav12",
-          linkedin: "https://linkedin.com/in/amityadav",
+          leetcode: "https://leetcode.com/u/amit09yadav12/",
+          linkedin: "https://linkedin.com/in/amit-yadav-dev",
           email: "mailto:amit09yadav12@gmail.com"
         }
       },
@@ -91,8 +91,8 @@ export class MemStorage implements IStorage {
           technologies: ["Next.JS", "MongoDB", "Express.JS", "Node.JS"],
           category: "Full Stack",
           date: "Jan 2023",
-          demoUrl: "#",
-          githubUrl: "#"
+          demoUrl: "https://dopamine-pi.vercel.app/",
+          githubUrl: "https://github.com/amityadav0912"
         },
         {
           title: "HappyPaws - Pet Adoption Platform",
@@ -100,8 +100,8 @@ export class MemStorage implements IStorage {
           technologies: ["React", "Node.js", "MongoDB", "PayPal API"],
           category: "MERN Stack", 
           date: "May 2023",
-          demoUrl: "#",
-          githubUrl: "#"
+          demoUrl: "https://happypaws-iota.vercel.app/",
+          githubUrl: "https://github.com/amityadav0912"
         },
         {
           title: "Bankist - Complete Banking App",
@@ -109,13 +109,13 @@ export class MemStorage implements IStorage {
           technologies: ["JavaScript", "HTML5", "CSS3", "DOM API"],
           category: "Vanilla JS",
           date: "Oct 2022",
-          demoUrl: "#",
-          githubUrl: "#"
+          demoUrl: "https://bankiest.vercel.app/",
+          githubUrl: "https://github.com/amityadav0912"
         }
       ],
       achievements: [
         {
-          title: "200+ Problems Solved",
+          title: "300+ Problems Solved",
           description: "Active in 50+ Contests on LeetCode, Codechef, HackerRank",
           type: "competitive_programming"
         },

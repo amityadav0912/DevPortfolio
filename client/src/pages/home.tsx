@@ -14,7 +14,7 @@ export default function Home() {
     // SEO optimization
     document.title = "Amit Yadav - Full Stack Developer | Portfolio";
     document.querySelector('meta[name="description"]')?.setAttribute("content", 
-      "Amit Yadav - Full Stack Developer with expertise in JavaScript, TypeScript, React, Node.js, and Java. Currently working at Accenture with 200+ problems solved on coding platforms."
+      "Amit Yadav - Full Stack Developer with expertise in JavaScript, TypeScript, React, Node.js, and Java. Currently working at Accenture with 300+ problems solved on coding platforms."
     );
     
     // Open Graph tags

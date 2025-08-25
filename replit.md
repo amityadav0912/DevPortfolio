@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack portfolio website for Amit Yadav, a Full Stack Developer currently working at Accenture. The application showcases professional experience, projects, skills, and achievements through a modern, responsive web interface. It's built as a single-page application with a React frontend and Express.js backend, featuring a contact form system and portfolio data management.
+This is a full-stack portfolio website for Amit Yadav, a Full Stack Developer currently working at Accenture. The application showcases professional experience, projects, skills, and achievements through a modern, responsive web interface. Features include his actual photo, real project links, and updated achievement stats (300+ problems solved). It's built as a single-page application with a React frontend and Express.js backend, featuring a contact form system and portfolio data management.
 
 ## User Preferences
 
