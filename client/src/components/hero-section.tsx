@@ -1,5 +1,6 @@
 import { Github, Code, Mail, Linkedin, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profileImage from "@assets/My_Image_1756154326303.jpg";
 
 export default function HeroSection() {
   const handleContactClick = () => {
@@ -97,7 +98,7 @@ export default function HeroSection() {
           <div className="animate-fade-in relative">
             <div className="relative">
               <img 
-                src="/attached_assets/My_Image_1756154326303.jpg" 
+                src={profileImage} 
                 alt="Amit Yadav - Full Stack Developer" 
                 className="rounded-2xl shadow-2xl w-full h-auto object-cover dark:shadow-gray-800 max-w-md mx-auto"
                 data-testid="hero-image"
