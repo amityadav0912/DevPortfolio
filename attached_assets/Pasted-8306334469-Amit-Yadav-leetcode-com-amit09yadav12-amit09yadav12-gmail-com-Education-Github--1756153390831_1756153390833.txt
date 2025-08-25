@@ -1,0 +1,68 @@
+8306334469 
+Amit Yadav
+ leetcode.com/amit09yadav12
+ amit09yadav12@gmail.com 
+Education
+ Github.com/amityadav0912 
+Jaipur Engineering College and Research Center
+ Bachelor’s of Technology in Information Technology
+ Technology and Skills
+ Aug. 2019– June 2023
+ CGPA-8.75
+ Languages: Java, JavaScript, TypeScript, SQL
+ Web Technologies: HTML, CSS, ExpressJS, NodeJS, NextJS, MongoDB
+ Tools: Git, SpringBoot, Cucumber, GitHub, VS Code
+ Skills: Problem-solving, Communication, Software testing
+ Relevant Coursework: Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems,
+ Operating Systems, Software Engineering
+ Experience
+ Accenture Solutions Pvt. Ltd.
+ Packaged App Development Associate
+ July 2023– Present
+ Bengaluru, Karnataka
+ • Developed a Single Page Application (SPA) using Angular for event management, which included event creation, approval
+ workflows, speaker invitations, and complex form flows with extensive validations.
+ • Redesigned a complex multi-section form to enhance user experience and reduce form completion time by 60%.
+ • Engineered high-performance RESTful APIs and microservices with Node.js and Express.js, driving a 30% increase in backend
+ efficiency and supporting the streamlined front-end experience.
+ • Developed a robust TypeScript framework which included high-throughput data processing pipeline while managing thousands
+ of entries per hour, accelerating regression testing approximately 15 times.
+ Code Planet Pvt. Ltd.
+ Full Stack Java Developer
+ October 2021– April 2022
+ Jaipur, Rajasthan
+ • Constructed dynamic websites with Java, SpringBoot, JDBC, and MySQL. Prioritizing backend development and database
+ management in live operational websites.
+ • Implemented secure authorization systems for web application access and data privacy.
+ • Designed RESTful APIs for seamless front-end and back-end communication with scalable and maintainable endpoints.
+ • Designed schemas, executed queries and performed data migration to maintain seamless application functionality and
+ performance.
+ Projects
+ Dopamine- Fitness Center Booking App | Next.JS, MongoDB, Tailwind CSS, Express.JS, and Node.JS.
+ Jan 2023
+ • Developed an innovative gym booking application enabling seamless workout scheduling based on individual availability and
+ facilitated access to fitness facilities across various cities.
+ • Implemented robust security measures including Google OAuth 2 login, password hashing and phone verification to ensure user
+ data protection and privacy.
+ • Integrated Google Maps API, Cloudinary and Razorpay and Leveraged MongoDB for efficient data management.
+ • Utilized Git for version control, facilitating efficient collaboration and project modifications.
+ HappyPaws- A Shelter Home Application | Nodejs, JavaScript, React, MongoDB, HTML, CSS
+ May 2023
+ • Developed a comprehensive platform for pet adoption, donations, volunteering, contacting for pet assistance or emergencies and
+ visiting shelter to spend quality time with animals out there
+ • Implemented PayPal integration for secure and hassle-free donations to shelters, enhancing transparency and convenience for
+ users contributing to animal welfare initiatives.
+ • Ensuring responsive design and accessibility, focusing on delivering a seamless user experience.
+ • Strategically planning deployment on Vercel cloud for reliable hosting and optimal site performance.
+ Bankist- A Complete Banking App | JavaScript, HTML, CSS
+ • Engineered a comprehensive banking platform enabling secure account access.
+ October 2022
+ • Implemented features including transaction history viewing, fund transfers, loan requests, and instant account closure.
+ • Utilized JavaScript ES6 features such as DOM manipulation, callback functions, and event listeners to ensure seamless user
+ interactions and efficient data processing.
+ • Developed a professional webpage highlighting the bank’s facilities and details, allowing users to open accounts effortlessly.
+ Achievements / Certificates
+ • Solved 200+ Problems & Participated in 50+ Contests on Leetcode, Codechef, HackerRank.
+ • Hacker Rank Certified for Java and 5* Badge in Java
+ • Secured TFWS(Tuition Fee Waiver Scheme) Seat and ScholerShip in Bachelor’s
+ • Runner up in IEEE Hack OverFlow, Hackathon at Manipal university.
