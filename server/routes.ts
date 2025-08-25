@@ -26,7 +26,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       } else {
         res.json({ 
           success: true, 
-          message: "Message received! Email notification failed, but your message is saved.", 
+          message: "Message received and saved! (Email setup needed to forward to inbox)", 
           id: contact.id 
         });
       }

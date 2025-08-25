@@ -17,7 +17,7 @@ export default function HeroSection() {
   const handleDownloadCV = () => {
     // Download the resume PDF
     const link = document.createElement('a');
-    link.href = '/attached_assets/Amit_Yadav_Resume.pdf';
+    link.href = '/Amit_Yadav_Resume.pdf';
     link.download = 'Amit_Yadav_Resume.pdf';
     link.click();
   };

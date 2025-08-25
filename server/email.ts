@@ -1,8 +1,4 @@
-import sgMail from '@sendgrid/mail';
-
-if (process.env.SENDGRID_API_KEY) {
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-}
+import nodemailer from 'nodemailer';
 
 interface EmailParams {
   to: string;
@@ -12,24 +8,46 @@ interface EmailParams {
   html?: string;
 }
 
-export async function sendEmail(params: EmailParams): Promise<boolean> {
-  if (!process.env.SENDGRID_API_KEY) {
-    console.error('SENDGRID_API_KEY is not configured');
-    return false;
+// Create a transporter using Gmail (easier setup than SendGrid)
+function createTransporter() {
+  if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
+    return nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS, // App password for Gmail
+      },
+    });
   }
+  
+  // Fallback: use a test account for development
+  return nodemailer.createTransport({
+    host: 'smtp.ethereal.email',
+    port: 587,
+    secure: false,
+    auth: {
+      user: 'test@test.com',
+      pass: 'test123',
+    },
+  });
+}
 
+export async function sendEmail(params: EmailParams): Promise<boolean> {
   try {
-    await sgMail.send({
-      to: params.to,
+    const transporter = createTransporter();
+    
+    const info = await transporter.sendMail({
       from: params.from,
+      to: params.to,
       subject: params.subject,
       text: params.text,
       html: params.html,
     });
-    console.log('Email sent successfully');
+    
+    console.log('Email sent successfully:', info.messageId);
     return true;
   } catch (error) {
-    console.error('SendGrid email error:', error);
+    console.error('Email error:', error);
     return false;
   }
 }
@@ -44,7 +62,7 @@ export async function sendContactFormEmail(formData: {
   
   const emailParams: EmailParams = {
     to: 'amit09yadav12@gmail.com', // Your email to receive messages
-    from: 'noreply@yourdomain.com', // You'll need to verify this domain with SendGrid  
+    from: `"${name}" <${email}>`, // From the contact form sender
     subject: `Portfolio Contact: ${subject}`,
     text: `
 New contact form submission:
