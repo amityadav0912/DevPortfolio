@@ -1,19 +1,12 @@
 import { GraduationCap } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import Setup from "../assets/Setup.jpg";
+import codingVideo from "../assets/CodingRec.mp4";
 
 export default function AboutSection() {
   return (
     <section id="about" className="py-20 bg-white dark:bg-black" data-testid="about-section">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-secondary dark:text-white mb-4">
-            About Me
-          </h2>
-          <p className="text-lg text-muted dark:text-gray-300 max-w-2xl mx-auto">
-            Passionate full-stack developer with a strong foundation in modern web technologies
-          </p>
-        </div>
-        
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-2xl font-bold text-secondary dark:text-white mb-6">My Journey</h3>
@@ -64,39 +57,25 @@ export default function AboutSection() {
               </Card>
               <Card className="text-center hover:shadow-lg transition-shadow duration-200">
                 <CardContent className="p-6">
-                  <div className="text-2xl font-bold text-primary mb-2" data-testid="stat-projects">5+</div>
+                  <div className="text-2xl font-bold text-primary mb-2" data-testid="stat-projects">15+</div>
                   <div className="text-sm text-muted dark:text-gray-400">Projects Completed</div>
                 </CardContent>
               </Card>
             </div>
-            
-            <img 
-              src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-              alt="Clean and organized coding setup with multiple monitors" 
-              className="rounded-xl shadow-lg w-full h-64 object-cover dark:shadow-gray-800"
-              data-testid="about-coding-setup"
-            />
-            
-            {/* Quick Facts */}
-            <Card className="bg-gray-50 dark:bg-gray-800">
-              <CardContent className="p-6">
-                <h4 className="text-lg font-semibold text-secondary dark:text-white mb-4">Quick Facts</h4>
-                <div className="space-y-3">
-                  <div className="flex items-center space-x-3" data-testid="fact-location">
-                    <span className="text-primary">📍</span>
-                    <span className="text-muted dark:text-gray-300">Based in Bengaluru, Karnataka</span>
-                  </div>
-                  <div className="flex items-center space-x-3" data-testid="fact-hackerrank">
-                    <span className="text-primary">🏆</span>
-                    <span className="text-muted dark:text-gray-300">HackerRank 5⭐ in Java</span>
-                  </div>
-                  <div className="flex items-center space-x-3" data-testid="fact-hackathon">
-                    <span className="text-primary">🥈</span>
-                    <span className="text-muted dark:text-gray-300">Runner-up IEEE Hack OverFlow</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+
+        <video
+        className="rounded-xl shadow-lg w-full h-64 object-cover dark:shadow-gray-800"
+        src={codingVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+      <div className="relative z-10 flex items-center justify-center h-full">
+        <h1 className="text-white text-4xl font-bold">
+          
+        </h1>
+      </div>
           </div>
         </div>
       </div>
